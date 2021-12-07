@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+}
+.contenedor {
+  max-width: 1200px;
+  /* border: 1px red solid; */
+  margin: auto;
+}
+/* header top */
+.header-contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0px 60px;
+}
+
+.header-texto-left {
+  /* border: 2px red solid; */
+  width: 230px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-texto-left img {
+   width: 100%;
+  }
+.header-nike {
+text-decoration: none;
+display: inline-block;
+color: black;
+  border: 2px rgb(201, 198, 198) solid;
+  border-top: none;
+  padding: 5px 25px;
+}
+.header-nike-jordan {
+      border: 2px rgb(201, 198, 198) solid;
+      border-top: none;
+      padding: 0px 5px;
+    }
+
+.header-texto-rigth {
+  /* border: 2px red solid; */
+  width: 550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-texto-rigth a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Barra de navegacion */
+.contenedor-nav {
+ padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+nav ul {
+  /* border: 1px red solid; */
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+nav ul li a {
+  display: inline-block;
+  /* border: 1px red solid; */
+  text-decoration: none;
+  padding: 5px 15px;
+  color: black;
+}
+
+.buscar {
+  padding: 8px 5px;
+  border: 1px rgb(201, 198, 198) solid;
+  margin-right: 25px;
+}
+
+.separador {
+  background-color: rgb(228, 224, 224);
+  height: 50px;
+  border: 2px #ccc solid;
+}
+/* contenedor de catalogos */
+.catalogos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+.catalogos article {
+  width: 400px;
+  margin-top: 0px;
+}
+.contenedor figure {
+  /* border: 1px red solid; */
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+}
+.catalogos figure img {
+  width: 100%;
+}
+/* APARTADO CREELO */
+
+.creelo {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.creelo-texto {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.creelo-frase {
+  padding-bottom: 10px;
+}
+
+.btn-comprartodo {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: all 0.5s;
+}
+.btn-comprartodo:hover {
+  background-color: rgb(58, 58, 58);
+}
+
+/* apartado main */
+
+.main-imagenes {
+  /* border: 1px rgb(253, 30, 30) solid; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main-imagenes figure img {
+  width: 100%;
+  height: 550px;
+}
+
+.main-categorias {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.main-texto {
+  padding-bottom: 20px;
+}
+.main-texto h2 {
+  padding: 15px;
+  font-weight: bold;
+}
+.main-texto h3 {
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+/* APARTADO TEMPORADA */
+
+.temporada {
+  background-image: url(../imagenes/calltoaction.jpg);
+  height: 450px;
+  color: white;
+  padding: 45px 35px;
+}
+.temporada h1 {
+  padding-bottom: 15px;
+}
+
+.temporada p {
+  padding-bottom: 15px;
+}
+.temporada a{
+    background-color: rgb(250, 244, 244);
+    color: black;
+    transition: all 0.5s;
+}
+
+.temporada a:hover{
+    background-color: rgb(58, 58, 58);
+    color:white;
+}
+/* APARTADO FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(32, 32, 32);
+  height: 130px;
+  /* padding: 20px; */
+}
+
+footer p {
+  color: white;
+  font-weight: bold;
+  line-height: 28px;
+  padding-left: 20px;
+}
