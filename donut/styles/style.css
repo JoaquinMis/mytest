@@ -31,9 +31,9 @@ body {
 .subir {
   font-size: 40px;
   bottom: 2%;
-  color: black;
+  color: rgb(105, 103, 103);
   position: fixed;
-  right: 3%;
+  right: 5%;
   z-index: 92525333333;
   cursor: pointer;
 }
@@ -936,6 +936,7 @@ margin-bottom: 10px;
 
 /*--------- foooter------- */
 .footer {
+  width: 100%;
   background-color: var(--footer);
 }
 

@@ -1,8 +1,7 @@
-@media screen and (min-width: 375px) and (max-width: 414px) {
+@media screen and (min-width: 390px) and (max-width: 414px) {
   .subir {
     font-size: 30px;
     bottom: 2%;
-    color: var(--azul_icono);
     position: fixed;
     right: 29%;
   }
@@ -15,7 +14,6 @@
 
   .logo {
     text-decoration: none;
-    color: var(--verde);
     font-size: 25px;
     font-weight: 600;
   }
@@ -134,7 +132,7 @@
 }
 .viewport {
   width: 350px;
-  /* border: 1px red solid; */
+  border: 1px red solid;
 }
 .overview {
   justify-content: center;
@@ -154,17 +152,18 @@
   width: 100%;
 }
 .cont_flechas {
-  display: flex;
-  gap: 10px;
   position: relative;
   top: 280px;
-  left: 140px;
+  left: 150px;
   z-index: 111111;
+  width: 20%;
+  border: 1px red solid;
 }
 
 /* ------ blog ------ */
 .blog__contenedor {
- gap: 10px;
+ gap: 15px;
+ justify-content: center;
 }
 
 /* ----- footer -------- */
