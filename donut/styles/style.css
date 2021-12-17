@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +6,7 @@
 
 body {
   line-height: 24px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 :root {
@@ -93,7 +92,7 @@ body {
   color: var(--texto);
 }
 .nav__a:hover {
- background-color: var(--title_ee);
+  background-color: var(--title_ee);
   color: white;
 }
 
@@ -119,7 +118,6 @@ body {
   align-items: stretch;
   padding-top: 40px;
   padding-bottom: 40px;
-
 }
 
 /* -------------- componente titulos -------------- */
@@ -139,7 +137,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .componente__figure {
@@ -171,7 +169,6 @@ body {
   text-align: justify;
 }
 
-
 /* about video */
 .video {
   width: 475px;
@@ -195,7 +192,7 @@ body {
 
 .menu {
   background-color: var(--colorcontenedor);
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 .center {
@@ -249,14 +246,13 @@ body {
   transition: all ease-in-out 0.5s;
 }
 .lista__menu:hover .name__paquete {
-  color:var(--verde);
-  
+  color: var(--verde);
 }
 .name__paquete {
   padding-bottom: 15px;
 }
 
-.subname__paquete{
+.subname__paquete {
   display: none;
 }
 
@@ -535,8 +531,7 @@ body {
 /* apartado pallaxs */
 
 .parallaxs {
-  
-  margin-top:30px ;
+  margin-top: 30px;
   background-image: url(../assets/donas.jpg);
   background-repeat: no-repeat;
   height: 250px;
@@ -557,7 +552,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
- text-align: center;
+  text-align: center;
 }
 
 .pedido__contacto {
@@ -695,8 +690,7 @@ body {
   /* flex-grow: 1; */
   height: 250px;
   position: relative;
- overflow: hidden;
-  
+  overflow: hidden;
 }
 .overview {
   display: flex;
@@ -712,7 +706,6 @@ body {
   z-index: 2;
   padding-left: 15px;
   /* border: 1px rgb(0, 102, 255) solid; */
-  
 }
 .cards {
   display: flex;
@@ -796,7 +789,6 @@ body {
   transition: all ease-in-out 0.5s;
   position: relative;
   border-radius: 5px;
-
 }
 
 .blog__article:hover {
@@ -852,34 +844,33 @@ body {
   color: var(--rosa);
   text-decoration: none;
 }
-.blog__btn{
+.blog__btn {
   z-index: 202033333;
 }
 .btn__read {
   text-decoration: none;
   color: #000;
- 
 }
-.blog__article:hover .btn__read{
+.blog__article:hover .btn__read {
   text-decoration: none;
   color: white;
   transition: all ease-in-out 0.5s;
-  text-decoration:underline;
+  text-decoration: underline;
 }
-.icono__like:hover{
-color: white;
+.icono__like:hover {
+  color: white;
 }
 
 /* ---------- contact maps ------- */
 
-.contact__formulario{
+.contact__formulario {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   padding-bottom: 20px;
 }
-.dona__input{
+.dona__input {
   width: 100%;
   border-radius: 5px;
   border: 0.5px rgb(226, 226, 226) solid;
@@ -887,31 +878,29 @@ color: white;
   line-height: 45px;
   padding-left: 10px;
   margin-bottom: 10px;
-  background-color: 
-#ededed;
+  background-color: #ededed;
 }
 
-.dona__input-msj{
-height: 200px;
-background-color: 
-#ededed;
-border-radius: 5px;
+.dona__input-msj {
+  height: 200px;
+  background-color: #ededed;
+  border-radius: 5px;
   border: 0.5px rgb(226, 226, 226) solid;
-line-height: 45px;
-padding-left: 10px;
-margin-bottom: 10px;
+  line-height: 45px;
+  padding-left: 10px;
+  margin-bottom: 10px;
 }
 
-.form{
+.form {
   margin-top: 15px;
   margin-bottom: 20px;
   width: 100%;
   height: 100%;
   display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
-    padding: 25px 15px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 25px 15px;
 }
 
 /* mapa responsive */
@@ -920,7 +909,7 @@ margin-bottom: 10px;
   width: 600px;
   margin: 0 auto;
 }
-.contenedor__maps{
+.contenedor__maps {
   height: 0;
   overflow: hidden;
   padding-bottom: 56.25%; /*nos da la proporcion de 16X9*/
@@ -1036,8 +1025,7 @@ margin-bottom: 10px;
 
 /* componente btn */
 
-
-.componente__btn{
+.componente__btn {
   display: inline-block;
   padding: 10px 15px;
   color: white;
@@ -1045,38 +1033,37 @@ margin-bottom: 10px;
   background-color: var(--title_ee);
   font-weight: 600;
   border: none;
-  transition: .3s ease all;
+  transition: 0.3s ease all;
   border-radius: 5px;
   position: relative;
   overflow: hidden;
   z-index: 2;
 }
-.nombre__btn{
+.nombre__btn {
   position: relative;
   z-index: 3333;
 }
 .componente__btn::after {
-	content: "";
-	width: 100%;
-	position: absolute;
-	z-index: 1;
-	top: 0;
-	left: calc(-100% - 80px);
-	border-bottom: 45px solid var(--rosa);
-	border-right: 80px solid transparent;
-	transition: .4s ease-in-out all;
+  content: "";
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: calc(-100% - 80px);
+  border-bottom: 45px solid var(--rosa);
+  border-right: 80px solid transparent;
+  transition: 0.4s ease-in-out all;
 }
 
 .componente__btn:hover::after {
-	left: 0;
+  left: 0;
 }
 
 /* keyframe para la dona */
 
-@keyframes dona{
+@keyframes dona {
   from {
     transform: rotate(0deg);
-  
   }
   to {
     transform: rotate(360deg);

@@ -1,9 +1,9 @@
 @media screen and (min-width: 390px) and (max-width: 414px) {
   .subir {
-    font-size: 30px;
+    font-size: 35px;
     bottom: 2%;
     position: fixed;
-    right: 29%;
+    right: 5%;
   }
 
   .header__contenedor {
@@ -31,14 +31,13 @@
   }
 
   .nav {
-      flex-direction: row-reverse;
+    flex-direction: row-reverse;
     gap: 10px;
-
   }
 
-  .nav__a{
-    color:black;
-    }
+  .nav__a {
+    color: black;
+  }
 
   .luna {
     border-right: 1px solid #000;
@@ -57,119 +56,110 @@
 
   /* -------------- about  ----------- */
 
-  .about{
+  .about {
     flex-wrap: wrap;
     gap: 15px;
-}
+  }
 
-.componente__encabezado{
+  .componente__encabezado {
     width: 100%;
-}
+    padding-top: 5px;
+  }
 
-.componente__title{
+  .componente__title {
     justify-content: center;
-}
+  }
 
-/* ------------ menu ------ */
-.contenedor__contenido {
-  gap: 20px;
-}
+  /* ------------ menu ------ */
+  .contenedor__contenido {
+    gap: 20px;
+  }
 
-.tabla__menu {
-  flex-basis: 100%;
-}
+  .tabla__menu {
+    flex-basis: 100%;
+  }
 
+  /*-------- galeria ----------- */
+  .contenedor__figure {
+    padding: 0 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "gallary1"
+      "gallary2"
+      "gallary3"
+      "gallary4"
+      "gallary5"
+      "gallary6"
+      "gallary7";
+    gap: 0.8em;
+  }
 
-/*-------- galeria ----------- */
-.contenedor__figure {
- padding: 0 15px;
-  grid-template-columns: 1fr;
-  grid-template-areas:
-    "gallary1"
-    "gallary2"
-    "gallary3"
-    "gallary4"
-    "gallary5"
-    "gallary6"
-    "gallary7"
-     
-    ;
-  gap: 0.8em;
-}
+  /* ----- historial o experiencia --- */
 
-/* ----- historial o experiencia --- */
+  .contenedor__historial {
+    gap: 50px;
+  }
 
-.contenedor__historial {
-  gap: 50px;
-}
+  .historial__article {
+    width: 100%;
+    padding-top: 60px;
+  }
 
-.historial__article {
-  width: 100%;
-  padding-top: 60px;
-}
+  /* -------- chefs ------- */
+  .chef__article {
+    width: 100%;
+  }
 
-/* -------- chefs ------- */
-.chef__article {
-  width: 100%;
-}
+  .chefs__contenedor {
+    gap: 20px;
+  }
+  /*---------- paralaxs --------*/
 
-.chefs__contenedor {
-  gap: 20px;
-}
-/*---------- paralaxs --------*/
+  .pedido__contacto {
+    flex-direction: column;
+    gap: 15px;
+  }
 
-.pedido__contacto {
-  flex-direction: column;
-  gap: 15px;
-}
+  /* ----- clientes ------*/
 
-/* ----- clientes ------*/
+  .contenedor__slider {
+    flex-direction: column;
+  }
+  .viewport {
+    width: 350px;
+  }
+  .overview {
+    justify-content: center;
+    gap: 17px;
+    padding-left: 17px;
+  }
 
-.contenedor__slider {
-  flex-direction: column;
-  /* justify-content: flex-start; */
-  /* border: 1px red solid; */
-}
-.viewport {
-  width: 350px;
-  border: 1px red solid;
-}
-.overview {
-  justify-content: center;
-  gap: 17px;
-  padding-left: 17px;
-  /* border: 1px rgb(0, 102, 255) solid; */
-  
-}
+  .cards {
+    width: 340px;
+    height: 180px;
+  }
 
-.cards {
-  width: 340px;
-  height: 180px;
-  /* border: 1px red solid; */
-}
+  .contenedor__textoequipo {
+    width: 100%;
+  }
+  .cont_flechas {
+    position: relative;
+    top: 280px;
+    left: 150px;
+    z-index: 111111;
+    width: 20%;
+  }
 
-.contenedor__textoequipo {
-  width: 100%;
-}
-.cont_flechas {
-  position: relative;
-  top: 280px;
-  left: 150px;
-  z-index: 111111;
-  width: 20%;
-  border: 1px red solid;
-}
+  /* ------ blog ------ */
+  .blog__contenedor {
+    gap: 15px;
+    justify-content: center;
+  }
 
-/* ------ blog ------ */
-.blog__contenedor {
- gap: 15px;
- justify-content: center;
-}
-
-/* ----- footer -------- */
-.redes__sociales {
-  justify-content: flex-start;
-  gap: 30px;
-  padding: 15px 25px;
-}
+  /* ----- footer -------- */
+  .redes__sociales {
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 15px 25px;
+  }
 }
