@@ -1006,13 +1006,21 @@ body {
 /* sociales */
 
 .redes__sociales {
-  color: var(--title_ee);
   display: flex;
   justify-content: flex-end;
   gap: 20px;
   align-items: center;
   text-align: end;
   padding: 15px 0;
+}
+.icono__footer{
+  color: var(--title_ee);
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+.icono__footer:hover{
+  color: var(--start);
 }
 
 .copy__footer {
