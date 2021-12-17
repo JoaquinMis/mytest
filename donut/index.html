@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/movil.css" />
+    <link rel="stylesheet" href="styles/estilo_SLIDE.css" />
+    <link rel="stylesheet" href="styles/modal.css" />
+
+    <!-- tipografias -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Source+Sans+Pro:wght@200;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- wow -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- trabaje localmente sin internet -->
+    <script src="fontawesome.js"></script>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/922d398e11.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Jquety -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- responsiveSlides -->
+    <script src="js/responsiveslides.min.js"></script>
+
+    <!-- tinycarousel -->
+    <script type="text/javascript" src="js/jquery.tinycarousel.js"></script>
+
+    <!-- fancybox -->
+
+    <link
+      rel="stylesheet"
+      href="../libreria_fancybox/fancybox/jquery.fancybox.css"
+    />
+
+    <script
+      type="text/javascript"
+      src="../libreria_fancybox/fancybox/jquery.fancybox.js"
+    ></script>
+
+    <title>Donut</title>
+  </head>
+  <body>
+    <script>
+      $(function () {
+        $("#slider4").responsiveSlides({
+          //   poner true para que sea automatico y poner tiempo
+          auto: true,
+          pager: false,
+          nav: true,
+          speed: 500,
+          namespace: "callbacks",
+          timeout: 4000,
+        });
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#slider3").tinycarousel();
+      });
+    </script>
+    <!-- apartado header -->
+    <header class="header">
+      <i id="top" class="subir fas fa-arrow-circle-up"></i>
+      <div class="header__contenedor contenedor">
+        <div>
+          <a href="#" class="logo"> D<span class="logo__rosa">uto</span>uto </a>
+        </div>
+
+        <nav class="nav">
+          <div id="iconomenu" class="contenedor__sandwich">
+            <i  class="fas fa-bars fa-1x"></i>
+          </div>
+
+          <ul id="menu" class="nav__ul">
+            <li class="nav__li"><a class="nav__a" href="#">Home</a></li>
+            <li class="nav__li"><a class="nav__a" href="#">Menu</a></li>
+            <li class="nav__li"><a class="nav__a" href="#">Gallery</a></li>
+            <li class="nav__li"><a class="nav__a" href="#">Chefs</a></li>
+            <li class="nav__li"><a class="nav__a" href="#">Contact</a></li>
+          </ul>
+
+          <button class="luna">
+            <i class="luna__icono fas fa-moon"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <!-- apartado slider donut -->
+    <section id="contenedorslide">
+      <div class="callbacks_container">
+        <ul class="rslides" id="slider4">
+          <li class="cajatexto">
+            <img src="assets/slider1.jpg" alt="" />
+            <div class="caption">
+              <p
+                class="
+                  title__slider
+                  wow
+                  animate__animated animate__jackInTheBox animate__slow
+                "
+              >
+                Sw<span class="title__sliderrosa">ee</span>ts Quality
+              </p>
+              <p
+                class="
+                  parrafo__slide
+                  wow
+                  animate__animated animate__bounceInDown animate__slow
+                "
+              >
+                We offer the best and most delicious donuts
+              </p>
+              <a
+                class="
+                  componente__btn
+                  wow
+                  animate__animated animate__bounceInUp animate__slow
+                "
+                href="#"
+                ><span class="nombre__btn">Menu</span></a
+              >
+            </div>
+          </li>
+          <li class="cajatexto">
+            <img src="assets/slider2.jpg" alt="" />
+            <div class="caption">
+              <p
+                class="
+                  title__slider
+                  wow
+                  animate__animated animate__jackInTheBox animate__slow
+                "
+              >
+                Sw<span class="title__sliderrosa">ee</span>ts Quality
+              </p>
+              <p
+                class="
+                  parrafo__slide
+                  wow
+                  animate__animated animate__bounceInDown animate__slow
+                "
+              >
+                We offer the best and most delicious donuts
+              </p>
+              <a
+                class="
+                  componente__btn
+                  wow
+                  animate__animated animate__bounceInUp animate__slow
+                "
+                href="#"
+                ><span class="nombre__btn">Menu</span></a
+              >
+            </div>
+          </li>
+          <li class="cajatexto">
+            <img src="assets/slider3.jpg" alt="" />
+            <div class="caption">
+              <p
+                class="
+                  title__slider
+                  wow
+                  animate__animated animate__jackInTheBox animate__slow
+                "
+              >
+                Sw<span class="title__sliderrosa">ee</span>ts Quality
+              </p>
+              <p
+                class="
+                  parrafo__slide
+                  wow
+                  animate__animated animate__bounceInDown animate__slow
+                "
+              >
+                We offer the best and most delicious donuts
+              </p>
+              <a
+                class="
+                  componente__btn
+                  wow
+                  animate__animated animate__bounceInUp animate__slow
+                "
+                href="#"
+                ><span class="nombre__btn">Menu</span></a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- apartado about -->
+    <section class="about contenedor">
+      <div
+        class="
+          componente__encabezado
+          wow
+          animate__animated animate__slideInLeft animate__slow
+        "
+      >
+        <div class="componente__title">
+          <figure class="componente__figure">
+            <img
+              src="assets/donut_chefs.png"
+              alt="Donut"
+              class="componente__img"
+            />
+          </figure>
+          <h2 class="component__title">About Us.</h2>
+        </div>
+        <p class="component__parrafo">
+          We offer the best and finest types of donuts, as we have chefs at the
+          highest level and extensive experience, and we have a good reputation
+          among our customers because we are always interested in providing the
+          best.
+        </p>
+      </div>
+      <article
+        class="video wow animate__animated animate__slideInRight animate__slow"
+      >
+        <div id="contenedoryoutube">
+          <iframe
+            class="frame"
+            src="https://www.youtube.com/embed/ZvOLe6umb1o"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </article>
+    </section>
+
+    <!-- ----- apartado menu ---- -->
+    <section class="menu">
+      <div class="contenedor__menu contenedor">
+        <!-- encabezado menu -->
+
+        <div
+          class="
+            componente__encabezado
+            center
+            wow
+            animate__animated animate__flipInX animate__slow
+          "
+        >
+          <div class="componente__title">
+            <figure class="componente__figure">
+              <img
+                src="assets/donut_chefs.png"
+                alt="Donut"
+                class="componente__img"
+              />
+            </figure>
+            <h2 class="component__title">Menu</h2>
+          </div>
+          <p class="component__parrafo component__parrafo-menu">
+            Check the menu and we hope to see you soon in our restaurant
+          </p>
+        </div>
+        <!-- contenedor menu -->
+        <div class="contenedor__contenido">
+          <div
+            class="
+              tabla__menu
+              wow
+              animate__animated animate__fadeInLeft animate__slow
+            "
+          >
+            <!-- items del menu -->
+            <div class="lista__menu">
+              <div class="lista__texto">
+                <h3 class="name__paquete">Iced Cake Donut</h3>
+                <p class="subname__paquete">Single Donut</p>
+              </div>
+              <div class="lista__precio">
+                <span class="solo__precio">9,95$</span>
+              </div>
+            </div>
+            <div class="lista__menu">
+              <div class="lista__texto">
+                <h3 class="name__paquete">Indulgent Donuts</h3>
+                <p class="subname__paquete">
+                  Mixed box assorted Indulgent donuts.
+                </p>
+              </div>
+              <div class="lista__precio">
+                <span class="solo__precio">9,95$</span>
+              </div>
+            </div>
+            <div class="lista__menu">
+              <div class="lista__texto">
+                <h3 class="name__paquete">Frozen Chocolate</h3>
+                <p class="subname__paquete">Frozen Drinks.</p>
+              </div>
+              <div class="lista__precio">
+                <span class="solo__precio">9,95$</span>
+              </div>
+            </div>
+            <div class="lista__menu">
+              <div class="lista__texto">
+                <h3 class="name__paquete">Classic Donuts</h3>
+                <p class="subname__paquete">
+                  Mixed box assorted classic donuts.
+                </p>
+              </div>
+              <div class="lista__precio">
+                <span class="solo__precio">9,95$</span>
+              </div>
+            </div>
+            <div class="lista__menu">
+              <div class="lista__texto">
+                <h3 class="name__paquete">Mini Donuts</h3>
+                <p class="subname__paquete">Mixed pack assorted mini donuts.</p>
+              </div>
+              <div class="lista__precio">
+                <span class="solo__precio">9,95$</span>
+              </div>
+            </div>
+            <div class="lista__menu">
+              <div class="lista__texto">
+                <h3 class="name__paquete">Cappuccino</h3>
+                <p class="subname__paquete">Hot drinks.</p>
+              </div>
+              <div class="lista__precio">
+                <span class="solo__precio">9,95$</span>
+              </div>
+            </div>
+            <div class="lista__menu">
+              <div class="lista__texto">
+                <h3 class="name__paquete">Iced Cake Donut</h3>
+                <p class="subname__paquete">Ice-cream.</p>
+              </div>
+              <div class="lista__precio">
+                <span class="solo__precio">9,95$</span>
+              </div>
+            </div>
+            <div class="lista__menu">
+              <div class="lista__texto">
+                <h3 class="name__paquete">Smartie Mixer</h3>
+                <p class="subname__paquete">Single Donut</p>
+              </div>
+              <div class="lista__precio">
+                <span class="solo__precio">9,95$</span>
+              </div>
+            </div>
+          </div>
+          <!----------------------- paquete donuto ----------------- -->
+          <div class="donut__paquete">
+            <div
+              class="
+                tiquet__precio
+                wow
+                animate__animated animate__fadeInTopRight animate__slow
+              "
+            >
+              <div class="precio__paquete">
+                <h2 class="precio__title">Donut Package</h2>
+                <div class="package__descuento">
+                  <p class="precio__origin">70$</p>
+                  <p class="equis">x</p>
+                  <i class="fas fa-arrow-right"></i>
+                  <div class="contenedor__preciodesc">
+                    <p class="precio__descuento">39.99$</p>
+                  </div>
+                </div>
+              </div>
+              <p class="dias__descuento">
+                3 Days left
+                <span class="dias__variante">Don't miss the change</span>
+              </p>
+              <div class="tringulo"></div>
+            </div>
+            <div
+              class="
+                contenedor__img
+                wow
+                animate__animated animate__fadeInRightBig animate__slow
+              "
+            >
+              <figure class="package__figure">
+                <img
+                  src="assets/imagen_menu_donas.png"
+                  alt=""
+                  class="package__img"
+                />
+              </figure>
+            </div>
+
+            <div
+              class="
+                tiquet__precio
+                wow
+                animate__animated animate__fadeInBottomRight animate__slow
+              "
+            >
+              <div class="precio__paquete">
+                <h2 class="precio__title precio__title-content">
+                  Package Content
+                </h2>
+                <div class="package__descuento package__descuento-content">
+                  <div class="lista__content">
+                    <span class="icono__lista"
+                      ><i class="icono__content fas fa-caret-right"></i
+                    ></span>
+                    <p class="texto__lista">6 small-sized donuts</p>
+                  </div>
+                  <div class="lista__content">
+                    <span class="icono__lista"
+                      ><i class="icono__content fas fa-caret-right"></i
+                    ></span>
+                    <p class="texto__lista">6 medium-sized donuts</p>
+                  </div>
+                  <div class="lista__content">
+                    <span class="icono__lista"
+                      ><i class="icono__content fas fa-caret-right"></i
+                    ></span>
+                    <p class="texto__lista">6 large-sized donuts</p>
+                  </div>
+                  <div class="lista__content">
+                    <span class="icono__lista"
+                      ><i class="icono__content fas fa-caret-right"></i
+                    ></span>
+                    <p class="texto__lista">3 cups of ice-cream</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tringulo triangulo__top"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------- galeria --------- -->
+    <section class="galeria">
+      <!-- encabezado galeria -->
+
+      <div
+        class="
+          componente__encabezado
+          center
+          contenedor
+          wow
+          animate__animated animate__flipInX animate__slow
+        "
+      >
+        <div class="componente__title">
+          <figure class="componente__figure">
+            <img
+              src="assets/donut_chefs.png"
+              alt="Donut"
+              class="componente__img"
+            />
+          </figure>
+          <h2 class="component__title">Gallary.</h2>
+        </div>
+        <p class="component__parrafo">
+          Check out some of the foods that our restaurant offers
+        </p>
+      </div>
+
+      <!-- contenido fotos -->
+      <div class="contenedor__figure">
+        <figure class="galeria__figure galeria__figure--g1">
+          <img src="assets/gallary1.jpg" alt="" class="galeria__img" />
+          <a
+            class="fancybox"
+            rel="gallery1"
+            href="assets/gallary1.jpg"
+            title="3 donas"
+          >
+            <figcaption class="galeria__descripcion">
+              <div class="galeria__icono">
+                <i class="boton__search fas fa-search-plus"></i>
+              </div>
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="galeria__figure galeria__figure--g2">
+          <img src="assets/gallary2.jpg" alt="" class="galeria__img" />
+          <a
+            class="fancybox"
+            rel="gallery1"
+            href="assets/gallary2.jpg"
+            title="Azucar glas"
+          >
+            <figcaption class="galeria__descripcion">
+              <div class="galeria__icono">
+                <i class="boton__search fas fa-search-plus"></i>
+              </div>
+            </figcaption>
+          </a>
+        </figure>
+        <figure class="galeria__figure galeria__figure--g3">
+          <img src="assets/gallary3.jpg" alt="" class="galeria__img" />
+          <a
+            class="fancybox"
+            rel="gallery1"
+            href="assets/gallary3.jpg"
+            title="6 donas en caja"
+          >
+            <figcaption class="galeria__descripcion">
+              <div class="galeria__icono">
+                <i class="boton__search fas fa-search-plus"></i>
+              </div>
+            </figcaption>
+          </a>
+        </figure>
+        <figure class="galeria__figure galeria__figure--g4">
+          <img src="assets/gallary4.jpg" alt="" class="galeria__img" />
+          <a
+            class="fancybox"
+            rel="gallery1"
+            href="assets/gallary4.jpg"
+            title="Diferentes sabores"
+          >
+            <figcaption class="galeria__descripcion">
+              <div class="galeria__icono">
+                <i class="boton__search fas fa-search-plus"></i>
+              </div>
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="galeria__figure galeria__figure--g5">
+          <img src="assets/gallary5.jpg" alt="" class="galeria__img" />
+          <a
+            class="fancybox"
+            rel="gallery1"
+            href="assets/gallary5.jpg"
+            title="Distintas formas"
+          >
+            <figcaption class="galeria__descripcion">
+              <div class="galeria__icono">
+                <i class="boton__search fas fa-search-plus"></i>
+              </div>
+            </figcaption>
+          </a>
+        </figure>
+        <figure class="galeria__figure galeria__figure--g6">
+          <img src="assets/gallary6.jpg" alt="" class="galeria__img" />
+          <a
+            class="fancybox"
+            rel="gallery1"
+            href="assets/gallary6.jpg"
+            title="Chispas"
+          >
+            <figcaption class="galeria__descripcion">
+              <div class="galeria__icono">
+                <i class="boton__search fas fa-search-plus"></i>
+              </div>
+            </figcaption>
+          </a>
+        </figure>
+        <figure class="galeria__figure galeria__figure--g7">
+          <img src="assets/gallary7.jpg" alt="" class="galeria__img" />
+          <a
+            class="fancybox"
+            rel="gallery1"
+            href="assets/gallary7.jpg"
+            title="Chocolate"
+          >
+            <figcaption class="galeria__descripcion">
+              <div class="galeria__icono">
+                <i class="boton__search fas fa-search-plus"></i>
+              </div>
+            </figcaption>
+          </a>
+        </figure>
+      </div>
+    </section>
+
+    <section class="hungry">
+      <div class="contenedor__hungry">
+        <div class="contenedor__historial contenedor">
+          <article
+            class="
+              historial__article
+              wow
+              animate__animated animate__fadeIn animate__delay-2s
+            "
+          >
+            <div class="historial__icono">
+              <i class="icono__hexa fas fa-history"></i>
+            </div>
+
+            <span class="historial__numero">9</span>
+            <h3 class="historial__texto">Years of Experience</h3>
+          </article>
+          <article
+            class="
+              historial__article
+              wow
+              animate__animated animate__fadeIn animate__delay-1s
+            "
+          >
+            <div class="historial__icono">
+              <i class="icono__hexa far fa-laugh-beam"></i>
+            </div>
+
+            <span class="historial__numero">15600</span>
+            <h3 class="historial__texto">Happy customers</h3>
+          </article>
+          <article
+            class="
+              historial__article
+              wow
+              animate__animated animate__fadeIn animate__delay-1s
+            "
+          >
+            <div class="historial__icono">
+              <i class="icono__hexa fas fa-motorcycle"></i>
+            </div>
+
+            <span class="historial__numero">39</span>
+            <h3 class="historial__texto">Food delivered</h3>
+          </article>
+          <article
+            class="
+              historial__article
+              wow
+              animate__animated animate__fadeIn animate__delay-2s
+            "
+          >
+            <div class="historial__icono">
+              <i class="icono__hexa fas fa-award"></i>
+            </div>
+
+            <span class="historial__numero">9</span>
+            <h3 class="historial__texto">Awards achieved</h3>
+          </article>
+        </div>
+
+        <!-- parallaxs -->
+
+        <div class="parallaxs">
+          <div class="filtro__parallaxs">
+            <h4 class="texto__hungry wow
+            animate__animated animate__fadeIn animate__slow">Are you hungry?</h4>
+            <p class="hungry__parrafo wow
+            animate__animated animate__flipInX animate__slow">
+              You can order food or book a table in our restaurant to taste the
+              delicious food.
+            </p>
+            <div class="pedido__contacto">
+              <p class="pedido__numero wow
+              animate__animated animate__bounceInLeft animate__slow">
+                <span><i class="pedido__icono fas fa-phone-alt"></i></span>+2
+                652 613 948
+              </p>
+
+              <a id="btn_get" class="componente__btn wow
+              animate__animated animate__bounceInRight animate__slow" href="#"
+                ><span class="nombre__btn">Book a table</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------- chefs------------- ------- -->
+    <section class="chefs contenedor">
+      <div
+        class="
+          componente__encabezado
+          center
+          wow
+          animate__animated animate__flipInX animate__slow
+        "
+      >
+        <div class="componente__title">
+          <figure class="componente__figure">
+            <img
+              src="assets/donut_chefs.png"
+              alt="Donut"
+              class="componente__img"
+            />
+          </figure>
+          <h2 class="component__title">Chefs</h2>
+        </div>
+        <p class="component__parrafo">
+          Check out some of the foods that our restaurant offers
+        </p>
+      </div>
+
+      <div class="chefs__contenedor">
+        <article
+          class="
+            chef__article
+            wow
+            animate__animated animate__flipInX animate__delay-3s
+          "
+        >
+          <figure class="chef__figure">
+            <img src="assets/chef1.jpg" alt="" class="chef__img" />
+
+            <figcaption class="caption__chef">
+              <div class="icono__contenedor">
+                <a href="#"><i class="icono__chef fab fa-facebook-f"></i></a>
+              </div>
+              <div class="icono__contenedor">
+                <a href="#"><i class="icono__chef fab fa-twitter"></i></a>
+              </div>
+              <div class="icono__contenedor">
+                <a href="#"><i class="icono__chef fab fa-instagram"></i></a>
+              </div>
+            </figcaption>
+          </figure>
+          <p class="chef__name">Gordon James</p>
+          <p class="Chef__cargo">Donut Chef</p>
+        </article>
+        <article
+          class="
+            chef__article
+            wow
+            animate__animated animate__flipInX animate__delay-1s animate
+          "
+        >
+          <figure class="chef__figure">
+            <img src="assets/chef2.jpg" alt="" class="chef__img" />
+
+            <figcaption class="caption__chef">
+              <div class="icono__contenedor">
+                <a href="#"><i class="icono__chef fab fa-facebook-f"></i></a>
+              </div>
+              <div class="icono__contenedor">
+                <a href="#"><i class="icono__chef fab fa-twitter"></i></a>
+              </div>
+              <div class="icono__contenedor">
+                <a href="#"><i class="icono__chef fab fa-instagram"></i></a>
+              </div>
+            </figcaption>
+          </figure>
+          <p class="chef__name">Gordon James</p>
+          <p class="Chef__cargo">Donut Chef</p>
+        </article>
+        <article
+          class="
+            chef__article
+            wow
+            animate__animated animate__flipInX animate__delay-2s
+          "
+        >
+          <figure class="chef__figure">
+            <img src="assets/chef3.jpg" alt="" class="chef__img" />
+
+            <figcaption class="caption__chef">
+              <div class="icono__contenedor">
+                <a href="#"><i class="icono__chef fab fa-facebook-f"></i></a>
+              </div>
+              <div class="icono__contenedor">
+                <a href="#"><i class="icono__chef fab fa-twitter"></i></a>
+              </div>
+              <div class="icono__contenedor">
+                <a href="#"><i class="icono__chef fab fa-instagram"></i></a>
+              </div>
+            </figcaption>
+          </figure>
+          <p class="chef__name">Gordon James</p>
+          <p class="Chef__cargo">Donut Chef</p>
+        </article>
+        <article
+          class="
+            chef__article
+            wow
+            animate__animated animate__flipInX animate__delay-4s
+          "
+        >
+          <figure class="chef__figure">
+            <img src="assets/chef4.jpg" alt="" class="chef__img" />
+
+            <figcaption class="caption__chef">
+              <div class="icono__contenedor">
+                <a href="#"><i class="icono__chef fab fa-facebook-f"></i></a>
+              </div>
+              <div class="icono__contenedor">
+                <a href="#"><i class="icono__chef fab fa-twitter"></i></a>
+              </div>
+              <div class="icono__contenedor">
+                <a href="#"><i class="icono__chef fab fa-instagram"></i></a>
+              </div>
+            </figcaption>
+          </figure>
+          <p class="chef__name">Gordon James</p>
+          <p class="Chef__cargo">Donut Chef</p>
+        </article>
+      </div>
+    </section>
+    <!-- ------------------- clientes ---------------------- -->
+    <section id="slider3" class="clientes">
+      <div class="contenedor__slider contenedor">
+        <div class="contenedor__textoequipo">
+          <!-- componente encabezado -->
+          <div
+            class="
+              componente__encabezado componente__encabezado-cliente
+              wow
+              animate__animated animate__slideInLeft animate__slow
+            "
+          >
+            <div class="componente__title">
+              <figure class="componente__figure">
+                <img
+                  src="assets/donut_chefs.png"
+                  alt="Donut"
+                  class="componente__img"
+                />
+              </figure>
+              <h2 class="component__title">Clientes</h2>
+            </div>
+            <p class="component__parrafo">
+              We offer the best and finest types of donuts, as we have chefs at
+              the highest level and extensive experience, and we have a good
+              reputation among our customers because we are always interested in
+              providing the best.
+            </p>
+          </div>
+
+          <div class="cont_flechas">
+            <div class="cuandro__flecha">
+              <a class="buttons prev" href="#">
+                <i class="flecha fas fa-arrow-left"></i>
+              </a>
+            </div>
+
+            <div class="cuandro__flecha">
+              <a class="buttons next" href="#">
+                <i class="flecha fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="
+            viewport
+            wow
+            animate__animated animate__slideInRight animate__slow
+          "
+        >
+          <div class="overview">
+            <article class="cards">
+              <img src="assets/client1.jpg" alt="" class="cliente__img" />
+              <h2 class="cliente__title">Colton Landon</h2>
+
+              <div class="testimonial__cont">
+                <i class="testimonial fas fa-quote-left"></i>
+                <h3 class="cliente__mensaje">
+                  One of the best restaurants I have seen, as they serve the
+                  most delicious meals
+                </h3>
+              </div>
+              <div class="contenedor__iconos">
+                <a href="#"><i class="start fas fa-star"></i></a>
+                <a href="#"><i class="start fas fa-star"></i></a>
+                <a href="#"><i class="start fas fa-star"></i></a>
+                <a href="#"><i class="start fas fa-star"></i></a>
+              </div>
+            </article>
+
+            <article class="cards">
+              <img src="assets/client2.jpg" alt="" class="cliente__img" />
+              <h2 class="cliente__title">Alice Adison</h2>
+
+              <div class="testimonial__cont">
+                <i class="testimonial fas fa-quote-left"></i>
+                <h3 class="cliente__mensaje">
+                  A very nice restaurant, the service is excellent and fast, and
+                  they are very friendly with 
+                </h3>
+              </div>
+              <div class="contenedor__iconos">
+                <a href="#"><i class="start fas fa-star"></i></a>
+                <a href="#"><i class="start fas fa-star"></i></a>
+                <a href="#"><i class="start fas fa-star"></i></a>
+                <a href="#"><i class="start fas fa-star"></i></a>
+              </div>
+            </article>
+
+            <article class="cards">
+              <img src="assets/client3.jpg" alt="" class="cliente__img" />
+              <h2 class="cliente__title">Macon Talon</h2>
+              <div class="testimonial__cont">
+                <i class="testimonial fas fa-quote-left"></i>
+                <h3 class="cliente__mensaje">
+                  They are very friendly in their dealings and they are
+                  distinguished by the speed of bringing 
+                </h3>
+              </div>
+              <div class="contenedor__iconos">
+                <a href="#"><i class="start fas fa-star"></i></a>
+                <a href="#"><i class="start fas fa-star"></i></a>
+                <a href="#"><i class="start fas fa-star"></i></a>
+                <a href="#"><i class="start fas fa-star"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------- blog ---------------------->
+    <section class="blog contenedor">
+      <div
+        class="
+          componente__encabezado
+          center
+          wow
+          animate__animated animate__flipInX animate__slow
+        "
+      >
+        <div class="componente__title">
+          <figure class="componente__figure">
+            <img
+              src="assets/donut_chefs.png"
+              alt="Donut"
+              class="componente__img"
+            />
+          </figure>
+          <h2 class="component__title">Blog</h2>
+        </div>
+        <p class="component__parrafo">Read our latest news</p>
+      </div>
+
+      <div class="blog__contenedor">
+        <article
+          class="
+            blog__article
+            wow
+            animate__animated animate__fadeIn animate__slow
+          "
+        >
+          <figure class="blog__figure">
+            <img src="assets/blog1.jpg" alt="" class="blog__img" />
+
+            <figcaption class="caption__blog"></figcaption>
+          </figure>
+          <p class="blog__name">Customer problems</p>
+          <p class="blog__parrafo">
+            Customer complaints are often a sign that there’s a disconnect
+            between what customers
+          </p>
+
+          <div class="corte" style="height: 150px; overflow: hidden">
+            <svg
+              viewBox="0 0 500 150"
+              preserveAspectRatio="none"
+              style="height: 100%; width: 100%"
+            >
+              <path
+                d="M-3.67,117.94 C135.15,139.64 369.92,86.36 500.27,127.80 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: rgba(248, 249, 250, 0.452)"
+              ></path>
+            </svg>
+          </div>
+
+          <div class="contenedor__links">
+            <div class="blog__iconos">
+              <a href="#" class="icono__like">
+                <i class="far fa-heart"></i> 98</a
+              >
+              <a href="#" class="icono__like"
+                ><i class="far fa-comment"></i> 74</a
+              >
+            </div>
+            <div class="blog__btn">
+              <a class="btn__read" href="#">Read more</a>
+            </div>
+          </div>
+        </article>
+        <article
+          class="
+            blog__article
+            wow
+            animate__animated animate__fadeIn animate__slow
+          "
+        >
+          <figure class="blog__figure">
+            <img src="assets/blog2.jpg" alt="" class="blog__img" />
+
+            <figcaption class="caption__blog"></figcaption>
+          </figure>
+          <p class="blog__name">Customer problems</p>
+          <p class="blog__parrafo">
+            Customer complaints are often a sign that there’s a disconnect
+            between what customers
+          </p>
+
+          <div class="corte" style="height: 150px; overflow: hidden">
+            <svg
+              viewBox="0 0 500 150"
+              preserveAspectRatio="none"
+              style="height: 100%; width: 100%"
+            >
+              <path
+                d="M-3.67,117.94 C135.15,139.64 369.92,86.36 500.27,127.80 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: rgba(248, 249, 250, 0.452)"
+              ></path>
+            </svg>
+          </div>
+
+          <div class="contenedor__links">
+            <div class="blog__iconos">
+              <a href="#" class="icono__like">
+                <i class="far fa-heart"></i> 98</a
+              >
+              <a href="#" class="icono__like"
+                ><i class="far fa-comment"></i> 74</a
+              >
+            </div>
+            <div class="blog__btn">
+              <a class="btn__read" href="#">Read more</a>
+            </div>
+          </div>
+        </article>
+        <article
+          class="
+            blog__article
+            wow
+            animate__animated animate__fadeIn animate__slow
+          "
+        >
+          <figure class="blog__figure">
+            <img src="assets/blog3.jpg" alt="" class="blog__img" />
+
+            <figcaption class="caption__blog"></figcaption>
+          </figure>
+          <p class="blog__name">Customer problems</p>
+          <p class="blog__parrafo">
+            Customer complaints are often a sign that there’s a disconnect
+            between what customers
+          </p>
+
+          <div class="corte" style="height: 150px; overflow: hidden">
+            <svg
+              viewBox="0 0 500 150"
+              preserveAspectRatio="none"
+              style="height: 100%; width: 100%"
+            >
+              <path
+                d="M-3.67,117.94 C135.15,139.64 369.92,86.36 500.27,127.80 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: rgba(248, 249, 250, 0.452)"
+              ></path>
+            </svg>
+          </div>
+
+          <div class="contenedor__links">
+            <div class="blog__iconos">
+              <a href="#" class="icono__like">
+                <i class="far fa-heart"></i> 98</a
+              >
+              <a href="#" class="icono__like"
+                ><i class="far fa-comment"></i> 74</a
+              >
+            </div>
+            <div class="blog__btn">
+              <a class="btn__read" href="#">Read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- --------- contacto --------- -->
+
+    <section class="contact__formulario contenedor">
+      <div class="contenedor__formulario">
+        <!-- componente encabezado -->
+        <div
+          class="
+            componente__encabezado componente__encabezado-cliente
+            wow
+            animate__animated animate__flipInX animate__slow
+          "
+        >
+          <div class="componente__title">
+            <figure class="componente__figure">
+              <img
+                src="assets/donut_chefs.png"
+                alt="Donut"
+                class="componente__img"
+              />
+            </figure>
+            <h2 class="component__title">Contact</h2>
+          </div>
+          <p class="component__parrafo">
+            Send us a message and we will get back to you as soon as possible
+          </p>
+        </div>
+        <form
+          class="form wow animate__animated animate__fadeInLeft animate__slow"
+          action="envio-formulario.php"
+          method="post"
+          enctype="multipart/form-data"
+        >
+          <input
+            class="dona__input"
+            type="text"
+            placeholder="Nombre"
+            name="nombre"
+            required
+          />
+          <input
+            class="dona__input"
+            type="email"
+            placeholder="Email"
+            name="email"
+            required
+          />
+          <textarea
+            class="dona__input-msj"
+            placeholder="Mensaje"
+            name="mensaje"
+            required
+          ></textarea>
+          <input class="componente__btn" type="submit" value="ENVIAR MENSAJE" />
+        </form>
+      </div>
+
+      <article
+        class="mapa wow animate__animated animate__fadeInRight animate__slow"
+      >
+        <div class="contenedor__maps">
+          <iframe
+            class="frame__mapa"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29898.045399158902!2d-90.08355058121339!3d20.49574260822736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1639693377010!5m2!1ses-419!2smx"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__contenedor contenedor">
+        <div class="donuto">
+          <h2 class="donuto__titulo">Donuto</h2>
+          <p class="donuto__parrafo">
+            We are waiting for you to visit us as soon as possible
+          </p>
+          <p class="dunuto__days">
+            Every day of the week except <br />
+            Sunday <br />
+            From 9:00 AM to 12:00 PM
+          </p>
+        </div>
+        <div class="contacto__info">
+          <div class="lista__content">
+            <span class="icono__lista"
+              ><i class="icono__content rosa fas fa-caret-right"></i
+            ></span>
+            <p class="texto__lista-footer">Contact Info</p>
+          </div>
+          <div class="lista__content">
+            <span class="icono__lista"
+              ><i class="icono__contacto fas fa-map-marker-alt"></i
+            ></span>
+            <p class="contacto__ubicacion">
+              9746 Marconi Lane Lockport, NY 14094
+            </p>
+          </div>
+          <div class="lista__content">
+            <span class="icono__lista"
+              ><i class="icono__contacto far fa-envelope"></i
+            ></span>
+            <p class="contacto__mail">Donuto@example.com</p>
+          </div>
+          <div class="lista__content">
+            <span class="icono__lista">
+              <i class="icono__contacto fas fa-phone-alt"></i
+            ></span>
+            <p class="contacto__numero">+2 994 399 222</p>
+          </div>
+        </div>
+        <div class="quick__links">
+          <div class="lista__content">
+            <span class="icono__lista"
+              ><i class="icono__content rosa fas fa-caret-right"></i
+            ></span>
+            <p class="texto__lista-footer">Quick Links</p>
+          </div>
+          <div class="contenedor__quick">
+            <a class="links" href="#">About us</a>
+            <a class="links" href="#">Menu</a>
+            <a class="links" href="#"> Chefs</a>
+            <a class="links" href="#">Clients</a>
+            <a class="links" href="#">blog</a>
+          </div>
+        </div>
+        <div class="suscription">
+          <div class="lista__content">
+            <span class="icono__lista"
+              ><i class="icono__content rosa fas fa-caret-right"></i
+            ></span>
+            <p class="texto__lista-footer">Suscribtion</p>
+          </div>
+          <p class="parrafo__suscripcion">
+            Dont' forget suscribe to our newsletter
+          </p>
+          <input class="send_suscripcion" type="email" placeholder="Email" />
+          <a class="componente__btn" href="#"
+            ><span class="nombre__btn">Send</span></a
+          >
+        </div>
+      </div>
+
+      <div class="redes__sociales contenedor">
+        <i class="icono__footer fab fa-facebook-f"></i>
+        <i class="icono__footer fab fa-twitter"></i>
+        <i class="icono__footer fab fa-google-plus-g"></i>
+      </div>
+
+      <div class="copy">
+        <p class="copy__footer">© 2021 Donuto , All Right Reserved</p>
+      </div>
+    </footer>
+
+    <!-- modal -->
+    <section id="modal" class="contenidomodal">
+      <div class="contenedorcerrar">
+        <i id="cerrarbtn" class="btn__cerrar fas fas fa-times-circle"></i>
+      </div>
+      <div class="estructuramodal">
+        <figure class="modal__figure">
+          <img
+            class="modal__img"
+            src="assets/modal_dona.jpg"
+            alt="descuento dona"
+          />
+          <figcaption class="caption">
+            <figure class="modal__figure">
+              <img
+                class="modal__img-comprar"
+                src="assets/modal_buy.svg"
+                alt="comprar paquete"
+              />
+            </figure>
+            <h2 class="title__promocion">
+              Tenemos un increible descuento en paquete de
+              <span class="precio__old">$70</span> a tan solo
+              <span class="precio__desc">$39.99</span>
+            </h2>
+
+            <p class="correle">¡No lo pienses más!</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- modal javaScript -->
+
+    <script>
+      var mostrarmodal = document.getElementById("modal");
+      var cerrarmodal = document.getElementById("cerrarbtn");
+      var btnejecutar = document.getElementById("btn_get");
+
+      btnejecutar.onclick = function () {
+        mostrarmodal.style.display = "block";
+      };
+
+      cerrarmodal.onclick = function () {
+        mostrarmodal.style.display = "none";
+      };
+      window.onclick = function (e) {
+        if (e.target == mostrarmodal) {
+          mostrarmodal.style.display = "none";
+        }
+      };
+    </script>
+    <!-- menu javaScript -->
+    <script>
+      $("#iconomenu").click(function () {
+        $("#menu").slideToggle();
+      });
+    </script>
+
+    <!-- top -->
+    <script>
+      $("#top").onclick(function (e) {
+        e.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, 500);
+      });
+    </script>
+
+    <!-- acordeon javaScript -->
+    <script>
+      // $(".acordeon__titulo").click(function(){
+      //     $(".acordeon__contenido").slideToggle();
+      // });
+
+      $(".name__paquete").click(function () {
+        let t = $(this);
+        let tp = t.next();
+
+        // sirve para cerrar el elemento
+        let p = t.parent().siblings().find("subname__paquete");
+
+        tp.slideToggle();
+
+        // sirve para ocultar el leido hacia arriba
+        // p.slideUp();
+      });
+    </script>
+
+    <!-- wow -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
