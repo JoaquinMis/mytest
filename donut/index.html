@@ -94,11 +94,12 @@
           </div>
 
           <ul id="menu" class="nav__ul">
-            <li class="nav__li"><a class="nav__a" href="#">Home</a></li>
-            <li class="nav__li"><a class="nav__a" href="#">Menu</a></li>
-            <li class="nav__li"><a class="nav__a" href="#">Gallery</a></li>
-            <li class="nav__li"><a class="nav__a" href="#">Chefs</a></li>
-            <li class="nav__li"><a class="nav__a" href="#">Contact</a></li>
+            <li class="nav__li"><a class="nav__a" href="#aboutus">Home</a></li>
+            <li class="nav__li"><a class="nav__a" href="#aboutus">About</a></li>
+            <li class="nav__li"><a class="nav__a" href="#mimenu">Menu</a></li>
+            <li class="nav__li"><a class="nav__a" href="#gallery">Gallery</a></li>
+            <li class="nav__li"><a class="nav__a" href="#chefs">Chefs</a></li>
+            <li class="nav__li"><a class="nav__a" href="#contact">Contact</a></li>
           </ul>
 
           <button class="luna">
@@ -212,7 +213,7 @@
     </section>
 
     <!-- apartado about -->
-    <section class="about contenedor">
+    <section id="aboutus" class="about contenedor">
       <div
         class="
           componente__encabezado
@@ -252,7 +253,7 @@
     </section>
 
     <!-- ----- apartado menu ---- -->
-    <section class="menu">
+    <section id="mimenu" class="menu">
       <div class="contenedor__menu contenedor">
         <!-- encabezado menu -->
 
@@ -453,7 +454,7 @@
       </div>
     </section>
     <!-- -------------------- galeria --------- -->
-    <section class="galeria">
+    <section id="gallery" class="galeria">
       <!-- encabezado galeria -->
 
       <div
@@ -599,7 +600,7 @@
             class="
               historial__article
               wow
-              animate__animated animate__fadeIn animate__delay-2s
+              animate__animated animate__fadeIn
             "
           >
             <div class="historial__icono">
@@ -613,7 +614,7 @@
             class="
               historial__article
               wow
-              animate__animated animate__fadeIn animate__delay-1s
+              animate__animated animate__fadeIn
             "
           >
             <div class="historial__icono">
@@ -627,7 +628,7 @@
             class="
               historial__article
               wow
-              animate__animated animate__fadeIn animate__delay-1s
+              animate__animated animate__fadeIn
             "
           >
             <div class="historial__icono">
@@ -641,7 +642,7 @@
             class="
               historial__article
               wow
-              animate__animated animate__fadeIn animate__delay-2s
+              animate__animated animate__fadeIn
             "
           >
             <div class="historial__icono">
@@ -681,7 +682,7 @@
       </div>
     </section>
     <!-- ----------------------------- chefs------------- ------- -->
-    <section class="chefs contenedor">
+    <section id="chefs" class="chefs contenedor">
       <div
         class="
           componente__encabezado
@@ -710,7 +711,7 @@
           class="
             chef__article
             wow
-            animate__animated animate__flipInX animate__delay-3s
+            animate__animated animate__flipInX animate__slow
           "
         >
           <figure class="chef__figure">
@@ -735,7 +736,7 @@
           class="
             chef__article
             wow
-            animate__animated animate__flipInX animate__delay-1s animate
+            animate__animated animate__flipInX animate__slow
           "
         >
           <figure class="chef__figure">
@@ -760,7 +761,7 @@
           class="
             chef__article
             wow
-            animate__animated animate__flipInX animate__delay-2s
+            animate__animated animate__flipInX animate__slow
           "
         >
           <figure class="chef__figure">
@@ -785,7 +786,7 @@
           class="
             chef__article
             wow
-            animate__animated animate__flipInX animate__delay-4s
+            animate__animated animate__flipInX animate__slow
           "
         >
           <figure class="chef__figure">
@@ -1083,7 +1084,7 @@
     </section>
     <!-- --------- contacto --------- -->
 
-    <section class="contact__formulario contenedor">
+    <section id="contact" class="contact__formulario contenedor">
       <div class="contenedor__formulario">
         <!-- componente encabezado -->
         <div
@@ -1297,7 +1298,7 @@
 
     <!-- top -->
     <script>
-      $("#top").onclick(function (e) {
+      $("#top").click(function (e) {
         e.preventDefault();
         $("html, body").animate({ scrollTop: 0 }, 500);
       });

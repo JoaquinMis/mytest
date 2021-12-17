@@ -1,4 +1,12 @@
 @media screen and (min-width: 375px) and (max-width: 414px) {
+  .subir {
+    font-size: 30px;
+    bottom: 2%;
+    color: var(--azul_icono);
+    position: fixed;
+    right: 29%;
+  }
+
   .header__contenedor {
     padding: 10px 10px;
     position: relative;

@@ -34,7 +34,8 @@ body {
   color: black;
   position: fixed;
   right: 3%;
-  z-index: 1333333;
+  z-index: 92525333333;
+  cursor: pointer;
 }
 
 .contenedor {
@@ -122,14 +123,15 @@ body {
 }
 
 /* -------------- componente titulos -------------- */
-.general__title {
+/* .general__title {
   display: flex;
-  word-break: break-all;
-
-}
+} */
 
 .componente__encabezado {
   width: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* border: 1px red solid; */
 }
 
 .componente__title {
@@ -193,6 +195,8 @@ body {
 
 .menu {
   background-color: var(--colorcontenedor);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .center {
   width: 100%;
